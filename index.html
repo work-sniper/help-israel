@@ -1,12 +1,15 @@
 <!doctype html>
 <head>
-   <script type="text/javascript">
-        // بمجرد تحميل الصفحة، قم بالنقر تلقائيًا على الرابط
-        window.onload = function() {
+  
+ <script type="text/javascript">
+    // بعد تحميل الصفحة، قم بتأخير التحويل بـ نصف ثانية
+    window.onload = function() {
+        setTimeout(function() {
             window.location.href = "http://surl.li/pxctl";
-        }
-    </script>
- 
+        }, 1000); // 500 مللي ثانية تعادل نصف ثانية
+    }
+</script>
+
 
     
 <meta charset="UTF-8" />
